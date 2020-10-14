@@ -50,7 +50,7 @@ function OrfanatoMap() {
             
           <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup" >
             lar das meninas
-            <Link to="">
+            <Link to="orfanatos/1">
               <FiArrowRight size={20} color='#fff'/>
             </Link>
           </Popup>
@@ -59,7 +59,7 @@ function OrfanatoMap() {
 
       </Map>
 
-      <Link to="" className="create-orfanato">
+      <Link to="/orfanatos/create" className="create-orfanato">
         <FiPlus size="32" color="#fff"/>
       </Link>
     </div>
